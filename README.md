@@ -12,6 +12,7 @@ To create a cursor using PL/SQL.
     4.Close the cursor
 
 # Program:
+```
 Create employee table
 
 CREATE TABLE employd ( empid NUMBER, empname VARCHAR(10), dept VARCHAR(10), salary NUMBER );
@@ -33,6 +34,7 @@ DBMS_OUTPUT.PUT_LINE('Salary: ' || emp_salary);
 END LOOP;
 
 CLOSE employd_cursor; END; /
+```
 # OUTPUT:
 <br>
 <img width="275" alt="271349609-19914c0c-d6fb-47c0-8cf7-4aa438bc8ee5" src="https://github.com/thrikesh/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/119576222/c206e78b-3371-4e26-a2e6-a445fe143044">
